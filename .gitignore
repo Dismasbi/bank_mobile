@@ -1,0 +1,83 @@
+# ============================================
+# 🔐 SECRETS - NE JAMAIS COMMITER
+# ============================================
+.env
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
+*.jks
+*.keystore
+backend/.env
+mobile/android/key.properties
+
+# ============================================
+# 📱 FLUTTER / DART
+# ============================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+mobile/build/
+mobile/.dart_tool/
+mobile/coverage/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/android/.gradle/
+mobile/android/app/debug
+mobile/android/app/profile
+mobile/android/app/release
+app.*.symbols
+app.*.map.json
+.widget_preview/
+
+# ============================================
+# 🟢 NODE.JS / BACKEND
+# ============================================
+node_modules/
+backend/node_modules/
+backend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
+
+# ============================================
+# 💻 IDE
+# ============================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+
+# ============================================
+# 🖥️ SYSTÈME D'EXPLOITATION
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 🗂️ MISC
+# ============================================
+*.class
+*.log
+*.pyc
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
